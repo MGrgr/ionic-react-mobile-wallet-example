@@ -1,0 +1,7 @@
+{
+  "name": "ionic-react-solana-mobile-wallet",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
