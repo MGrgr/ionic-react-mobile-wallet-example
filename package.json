@@ -5,27 +5,32 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "test.e2e": "cypress run",
     "test.unit": "vitest",
     "lint": "eslint"
   },
   "dependencies": {
-    "@capacitor/app": "5.0.6",
+    "@capacitor/android": "5.2.3",
+    "@capacitor/app": "^5.0.6",
     "@capacitor/core": "5.2.3",
-    "@capacitor/haptics": "5.0.6",
-    "@capacitor/keyboard": "5.0.6",
-    "@capacitor/status-bar": "5.0.6",
+    "@capacitor/haptics": "^5.0.6",
+    "@capacitor/keyboard": "^5.0.6",
+    "@capacitor/status-bar": "^5.0.6",
     "@ionic/react": "^7.0.0",
     "@ionic/react-router": "^7.0.0",
+    "@solana-mobile/mobile-wallet-adapter-protocol": "^2.0.1",
+    "@solana-mobile/mobile-wallet-adapter-protocol-web3js": "^2.0.1",
+    "@solana/web3.js": "^1.74.0",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
     "ionicons": "^7.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router": "^5.3.4",
-    "react-router-dom": "^5.3.4"
+    "react-router-dom": "^5.3.4",
+    "swr": "^2.2.1"
   },
   "devDependencies": {
     "@capacitor/cli": "5.2.3",
