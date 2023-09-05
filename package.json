@@ -21,7 +21,7 @@
     "@ionic/react": "^7.0.0",
     "@ionic/react-router": "^7.0.0",
     "@solana-mobile/mobile-wallet-adapter-protocol": "^2.0.1",
-    "@solana-mobile/mobile-wallet-adapter-protocol-capacitor": "file:../solana-mobile-capacitor",
+    "@solana-mobile/mobile-wallet-adapter-protocol-capacitor": "mfactory-lab/solana-mobile-capacitor",
     "@solana/web3.js": "^1.74.0",
     "@types/react-router": "^5.1.20",
     "@types/react-router-dom": "^5.3.3",
