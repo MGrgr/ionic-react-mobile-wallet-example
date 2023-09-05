@@ -1,6 +1,7 @@
-import {transact} from '@solana-mobile/mobile-wallet-adapter-protocol-web3js';
+import {transact} from '@solana-mobile/mobile-wallet-adapter-protocol-capacitor';
 import React, {ComponentProps, useState, useCallback} from 'react';
 import {IonButton} from '@ionic/react';
+
 
 import {useAuthorization} from './providers/AuthorizationProvider';
 import {alertAndLog} from '../utils/alertAndLog';

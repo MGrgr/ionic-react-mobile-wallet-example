@@ -1,4 +1,4 @@
-import {transact} from '@solana-mobile/mobile-wallet-adapter-protocol-web3js';
+import {transact} from '@solana-mobile/mobile-wallet-adapter-protocol-capacitor';
 import React, {ComponentProps} from 'react';
 import {IonButton} from '@ionic/react';
 

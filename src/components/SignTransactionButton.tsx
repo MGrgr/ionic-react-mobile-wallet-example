@@ -4,7 +4,7 @@ import {fromUint8Array} from 'js-base64';
 import {
   transact,
   Web3MobileWallet,
-} from '@solana-mobile/mobile-wallet-adapter-protocol-web3js';
+} from '@solana-mobile/mobile-wallet-adapter-protocol-capacitor';
 import {Keypair, SystemProgram, Transaction} from '@solana/web3.js';
 
 import {useAuthorization} from './providers/AuthorizationProvider';
